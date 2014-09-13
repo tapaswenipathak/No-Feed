@@ -11,7 +11,7 @@ Hide your Facebook news feed if you want to increase your productivity, or if yo
 
 I have not added this to Chrome store, as it is still in it's Beta phase. Follow below steps to use it :
 
-1. Download it from [here] () and extract/unzip it.
+1. Download it from [here] (https://github.com/tapasweni-pathak/No-Feed/blob/master/dist/NoFeed.zip?raw=true) and extract/unzip it.
 2. Either go to chrome://extensions or go to Tools -> Extensions.
 3. Check Developer Mode is ticked.
 4. Click on Load unpacked extension, go to the location where you downloaded it in step 1.
