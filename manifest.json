@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "No Feed",
+  "description": "This extension hides your Facebook news feed inturn increases your productivity.",
+  "version": "0.1.0",
+
+  "content_scripts": [
+    {
+  	  "matches" : ["https://www.facebook.com/"],
+	  "css": ["removefeed.css"]
+	}
+   ],
+
+  "permissions": [
+    "tabs", "https://www.facebook.com/"
+  ],
+
+  "browser_action": {
+    "default_icon": "code.png",
+    "default_popup": "index.html"
+  }
+}
