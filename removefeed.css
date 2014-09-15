@@ -1,10 +1,9 @@
 div[id*="ticker"], /* Right column */
-div[id*="pagelet_sidebar"]
+div[id*="pagelet_sidebar"],
+body._5vb_ #globalContainer,
+a[href*="lists"],
+.profile #content, .home #content, .search #content /*For All the content, what is left out above*/,
 {
   display: none !important;
 }
 
-.profile #content, .home #content, .search #content /*For All the content, what is left out above*/
-{
-	display: none;
-}

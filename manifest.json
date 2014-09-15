@@ -7,14 +7,10 @@
 
   "content_scripts": [
     {
-  	  "matches" : ["https://www.facebook.com/"],
+  	  "matches" : ["*://*.facebook.com/", "*://*.facebook.com/*ref*tnmn/"],
 	  "css": ["removefeed.css"]
 	}
    ],
-
-  "permissions": [
-    "tabs", "https://www.facebook.com/"
-  ],
 
   "browser_action": {
     "default_icon": "code.png",
