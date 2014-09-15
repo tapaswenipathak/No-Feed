@@ -7,9 +7,15 @@
 
   "content_scripts": [
     {
-  	  "matches" : ["*://*.facebook.com/", "*://*.facebook.com/*ref*tnmn/"],
+  	  "matches" : ["*://*.facebook.com/*", "*://*.facebook.com/*ref*tnmn/"],
+  	  "exclude_globs": ["*notif*"],
 	  "css": ["removefeed.css"]
-	}
+    }
+    
+   ],
+   
+   "permissions": [
+	"tabs"
    ],
 
   "browser_action": {
