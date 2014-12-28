@@ -24,3 +24,5 @@ I have not added this to Chrome store, as it is still in it's Beta phase. Follow
 
 ![Use No Feed] (/Images/NoFeed.png)
 
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tapasweni-pathak/no-feed/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
